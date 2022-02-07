@@ -127,3 +127,33 @@ a:hover {
     height: 25px;
     width: 250px;
 }
+
+/* Boxes */
+#boxes {
+    margin-top: 20px;
+}
+#boxes > .container {
+    display: flex;
+    justify-content: space-between;
+}
+.box {
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+}
+i {
+    font-size: 225px;
+    margin: auto;
+}
+
+.fa-html5 {
+    color: red;
+}
+
+.fa-css3-alt {
+    color: cornflowerblue;
+}
+
+.fa-js {
+    color: #f3df50;
+}
